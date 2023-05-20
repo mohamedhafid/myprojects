@@ -1,0 +1,44 @@
+.navigation{
+    min-height:20px;
+   
+    
+    background-color: aqua;
+}
+
+ul{
+     display:flex;
+    flex-direction:row;
+    justify-content:end; 
+    align-items:flex-start;
+    
+} 
+li{
+    
+    list-style-type:none;
+    display:inline-block;
+    margin-left:20px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+li button{
+    background-color: rgba(44, 209, 72, 0.233);
+    border:1px solid rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    font-size:16px;
+    font-style: oblique;
+    font-stretch: extra-expanded;
+
+}
+li button:hover{
+    color:white;
+}
+li button:active{
+    color:blueviolet;
+}
+li button:focus{
+    color:brown;
+}
+li button::first-letter{
+    font-size:20px;
+}
